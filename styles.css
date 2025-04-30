@@ -1,0 +1,34 @@
+    body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .menupicture {
+        background-image: url('images/menu.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 70vh;         
+        width: 100%;  
+        padding-top: 10%;
+        background-color: black;
+        background-attachment: fixed;
+    }
+    
+    .textcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .text {
+        color: white;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
